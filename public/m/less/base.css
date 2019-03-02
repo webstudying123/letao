@@ -1,0 +1,65 @@
+html {
+  font-size: 26.6667vw;
+}
+body {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #006699;
+  color: #fff;
+}
+#header .left {
+  width: 45px;
+  height: 45px;
+}
+#header .center {
+  flex: 1;
+}
+#header .center h4 {
+  line-height: 45px;
+  text-align: center;
+  font-weight: normal;
+}
+#header .right {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #006699;
+  width: 100%;
+}
+#footer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 45px;
+}
+#footer a span {
+  line-height: 1;
+}
+#footer a.active {
+  color: orange;
+}

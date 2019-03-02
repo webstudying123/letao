@@ -1,0 +1,135 @@
+html {
+  font-size: 26.6667vw;
+}
+body {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+#header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background-color: #006699;
+  color: #fff;
+}
+#header .left {
+  width: 45px;
+  height: 45px;
+}
+#header .center {
+  flex: 1;
+}
+#header .center h4 {
+  line-height: 45px;
+  text-align: center;
+  font-weight: normal;
+}
+#header .right {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #006699;
+  width: 100%;
+}
+#footer a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 45px;
+}
+#footer a span {
+  line-height: 1;
+}
+#footer a.active {
+  color: orange;
+}
+#main {
+  padding: 45px 0;
+  height: 100vh;
+}
+#main .mui-scroll-wrapper {
+  position: relative;
+  height: 100%;
+}
+#main .mui-scroll-wrapper .slide a {
+  display: block;
+}
+#main .mui-scroll-wrapper .slide a img {
+  width: 100%;
+}
+#main .mui-scroll-wrapper .nav {
+  padding: 10px;
+}
+#main .mui-scroll-wrapper .nav a {
+  display: block;
+}
+#main .mui-scroll-wrapper .nav a img {
+  width: 100%;
+}
+#main .mui-scroll-wrapper .banner {
+  padding: 10px;
+}
+#main .mui-scroll-wrapper .banner .left a {
+  display: flex;
+}
+#main .mui-scroll-wrapper .banner .left a img {
+  width: 50%;
+  height: 120px;
+}
+#main .mui-scroll-wrapper .banner .right a {
+  display: block;
+}
+#main .mui-scroll-wrapper .banner .right a img {
+  width: 100%;
+  height: 240px;
+}
+#main .mui-scroll-wrapper .brand,
+#main .mui-scroll-wrapper .sport,
+#main .mui-scroll-wrapper .woman,
+#main .mui-scroll-wrapper .man {
+  padding: 10px;
+}
+#main .mui-scroll-wrapper .brand .title a,
+#main .mui-scroll-wrapper .sport .title a,
+#main .mui-scroll-wrapper .woman .title a,
+#main .mui-scroll-wrapper .man .title a {
+  display: block;
+}
+#main .mui-scroll-wrapper .brand .title a img,
+#main .mui-scroll-wrapper .sport .title a img,
+#main .mui-scroll-wrapper .woman .title a img,
+#main .mui-scroll-wrapper .man .title a img {
+  width: 100%;
+}
+#main .mui-scroll-wrapper .brand .content a,
+#main .mui-scroll-wrapper .sport .content a,
+#main .mui-scroll-wrapper .woman .content a,
+#main .mui-scroll-wrapper .man .content a {
+  display: block;
+}
+#main .mui-scroll-wrapper .brand .content a img,
+#main .mui-scroll-wrapper .sport .content a img,
+#main .mui-scroll-wrapper .woman .content a img,
+#main .mui-scroll-wrapper .man .content a img {
+  width: 100%;
+}
